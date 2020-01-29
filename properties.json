@@ -1,0 +1,95 @@
+{
+	"nodes": [{
+			"name": "mpsrr-1",
+            "desc":"worker node demo cluster",
+			"devices": [{
+				"device": "/dev/vda",
+				"deviceThreshold": 65
+			}]
+		},{
+			"name": "mpsrr-2",
+            "desc":"worker node demo cluster",
+			"devices": [{
+				"device": "/dev/vda",
+				"deviceThreshold": 65
+			}]
+		},{
+            "name": "mpsrr-3",
+            "desc":"scheduler node demo cluster",
+            "devices": [{
+                "device": "/dev/vda",
+                "deviceThreshold": 65
+            }]
+        },{
+            "name": "mpsrr-4",
+            "desc":"swarm master node demo cluster",
+            "devices": [{
+                "device": "/dev/vda",
+                "deviceThreshold": 65
+            }]
+        },{
+            "name": "mpsrr-5",
+            "desc":"worker node demo cluster",
+            "devices": [{
+                "device": "/dev/vda",
+                "deviceThreshold": 65
+            }]
+        },{
+            "name": "mpsrr-6",
+            "desc":"scheduler node test cluster",
+            "devices": [{
+                "device": "/dev/vda",
+                "deviceThreshold": 65
+            }]
+        },{
+            "name": "mpsrr-7",
+            "desc":"swarm master node test cluster",
+            "devices": [{
+                "device": "/dev/vda",
+                "deviceThreshold": 75
+            }]
+        },{
+            "name": "mpsrr-8",
+            "desc":"worker node test cluster",
+            "devices": [{
+                "device": "/dev/vda",
+                "deviceThreshold": 75
+            }]
+        },{
+            "name": "mps-tst-1",
+            "desc":"swarm master node smoke test cluster",
+            "devices": [{
+                "device": "/dev/sda2",
+                "deviceThreshold": 85
+            }]
+        },{
+            "name": "mps-tst-2",
+            "desc":"woker node smoke test cluster",
+            "devices": [{
+                "device": "/dev/sda2",
+                "deviceThreshold": 85
+            }]
+        },{
+            "name": "mps-tst-3",
+            "desc":"worker node smoke test cluster",
+            "devices": [{
+                "device": "/dev/sda2",
+                "deviceThreshold": 85
+            }]
+        },{
+            "name": "mps-tst-4",
+            "desc":"worker node smoke test cluster",
+            "devices": [{
+                "device": "/dev/sda2",
+                "deviceThreshold": 85
+            }]
+        },{
+            "name": "mps-tst-5",
+            "desc":"scheduler node smoke test cluster",
+            "devices": [{
+                "device": "/dev/sda2",
+                "deviceThreshold": 85
+            }]
+        }
+	]
+}
